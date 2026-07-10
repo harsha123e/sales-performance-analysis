@@ -14,8 +14,6 @@ ORDER BY
     year,
     month;
 
-
-
 -- Business Question 2
 -- Which product categories and sub-categories generate the
 -- highest revenue and profit?
@@ -34,8 +32,6 @@ ORDER BY
     total_profit DESC,
     total_sales DESC;
 
-
-
 -- Business Question 3
 -- How does business performance compare across regions?
 
@@ -49,7 +45,6 @@ GROUP BY
     region
 ORDER BY
     total_profit DESC;
-
 
 -- Business Question 4
 -- How do customer segments differ in revenue,
@@ -65,8 +60,6 @@ GROUP BY
     segment
 ORDER BY
     total_profit DESC;
-
-
 
 -- Business Question 5
 -- How do discounts impact profitability?
@@ -88,7 +81,6 @@ GROUP BY
     discount_range
 ORDER BY
     total_profit DESC;
-
 
 -- Business Question 6
 -- Which products generate high sales but low or negative profit?
